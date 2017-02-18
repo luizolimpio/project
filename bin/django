@@ -1,0 +1,33 @@
+#!/home/luiz/PycharmProjects/lfs-santarita/.lfs/bin/python
+
+import sys
+sys.path[0:0] = [
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/django_lfs-0.10.2-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/djangorecipe-1.9-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/Django-1.8-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/zc.recipe.egg-2.0.3-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita2/eggs/zc.buildout-2.7.1-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/Pillow-2.8.1-py2.7-linux-x86_64.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/lfs_theme-0.10.1-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/lfs_paypal-1.3-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/lfs_order_numbers-1.1-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/lfs_contact-1.2-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/django_reviews-1.1-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/django_postal-0.96-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/django_portlets-1.3-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/django_pagination-1.0.7-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/django_paypal-0.1.2.lfs_2-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/django_localflavor-1.1-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/django_compressor-1.4-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/.lfs/lib/python2.7/site-packages',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/django_countries-4.0-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/six-1.10.0-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita/eggs/django_appconf-1.0.2-py2.7.egg',
+  '/home/luiz/PycharmProjects/lfs-santarita',
+  '/home/luiz/PycharmProjects/lfs-santarita/lfs_project',
+  ]
+
+import djangorecipe.manage
+
+if __name__ == '__main__':
+    sys.exit(djangorecipe.manage.main('lfs_project.settings'))
