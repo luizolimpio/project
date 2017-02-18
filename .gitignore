@@ -16,5 +16,5 @@ sys
 zc.buildout.buildout
 gunicron_lfs_project
 System Volume Information/
-
+*.pyc
 
